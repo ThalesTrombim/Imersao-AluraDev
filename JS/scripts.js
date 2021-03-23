@@ -1,10 +1,11 @@
 document.body.innerHTML = Conversor();
 
 function Conversor () {
-    var valorEmDolarTexto = prompt("Qual o valor em dolar você quer converter?")
+    
+    var valorEmDolarTexto = document.getElementById("valorParaCoversao").value;
     
     var valorEmDolarNumero = parseFloat(valorEmDolarTexto)
-    
+
     var valorEmReal = valorEmDolarNumero * 5.50
     
     var valorEmRealFixado = valorEmReal.toFixed(2);

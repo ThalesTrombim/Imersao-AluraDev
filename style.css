@@ -6,7 +6,7 @@ body {
   background-size: 100vh;
   background-position: center bottom;
   background-repeat: no-repeat;
-}
+}   
 
 .container {
   text-align: center;
@@ -33,4 +33,20 @@ body {
   position: absolute;
   top: 10px;
   right:10px;
+}
+
+.Conversor {
+    top: 130px;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+
+    color: white;
+    background: red;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+    border-radius: 2px;
 }
